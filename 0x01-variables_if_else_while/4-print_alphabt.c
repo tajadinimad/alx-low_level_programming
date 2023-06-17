@@ -16,7 +16,7 @@ int main(void)
 		{
 			continue;
 		}
-		else 
+		else
 		{
 			putchar(Alpha);
 		}
