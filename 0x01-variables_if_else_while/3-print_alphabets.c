@@ -16,10 +16,10 @@ int main(void)
 			putchar(Alpha);
 		}
 	for (Alpha = 'A'; Alpha <= 'Z'; Alpha++)
-                if (Alpha != 'Q' ||  Alpha != 'E')
-                {
-                        putchar(Alpha);
-                }
+		if (Alpha != 'Q' ||  Alpha != 'E')
+		{
+			putchar(Alpha);
+		}
 	putchar('\n');
 	return (0);
 }
