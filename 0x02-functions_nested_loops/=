@@ -1,0 +1,18 @@
+#ifndef _1-MAIN_C_
+#define _1-MAIN_C_
+/**
+ * _putchar - writes the character c to std
+ * @c: parameter to compare
+ * Return: 1 or 0
+ */
+int _putchar(char c);
+/**
+ * print_alphabet - function to print alphabet
+ *
+ */
+void print_alphabet(void);
+/**
+ * print_alphabet_x10 - prints alphabet 10 times
+ *
+ *
+#endif
