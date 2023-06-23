@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - check the code.
  *
@@ -14,6 +15,12 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
+
+/**
+ * main - check the code.
+ *
+ * Return: Always 0.
+ */
 void print_alphabet_x10(void)
 {
 	int R = 0;
