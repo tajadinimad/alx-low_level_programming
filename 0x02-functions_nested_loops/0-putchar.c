@@ -1,19 +1,21 @@
-#include <stdio.h>
- 
-/* function declaration 
-int max(int num1, int num2);*/
- 
-int main () {
+#include "main.h"
 
-   /* local variable definition *
-   int a = 100;
-   int b = 200;
-   int ret;
+/**
+ * main - Entry point
+ *
+ * Return: Always returns 0
+ *
  */
-   /* calling a function to get max value 
-   ret = max(a, b);*/
- 
-   printf( "_putchar\n" );
- 
-   return 0;
+int main(void)
+{
+        _putchar('_');
+        _putchar('p');
+        _putchar('u');
+        _putchar('t');
+        _putchar('c');
+        _putchar('h');
+        _putchar('a');
+        _putchar('r');
+        _putchar('\n');
+        return (0);
 }
