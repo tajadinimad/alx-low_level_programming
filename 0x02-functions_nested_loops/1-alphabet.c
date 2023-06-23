@@ -1,8 +1,7 @@
+#include "1-main.c"
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always returns 0
+ * print_alphabet_x10 - prints alphabet 10 times
  *
  */
 void print_alphabet(void)
