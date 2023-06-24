@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  * print_to_98 - print natural 
- *
- * Return: always 0;
+ * @n variable
+ * Return: prints all natural numbers from n to 98;
  *
  */
 void print_to_98(int n)
