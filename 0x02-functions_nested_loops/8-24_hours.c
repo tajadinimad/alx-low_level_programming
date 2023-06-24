@@ -5,10 +5,7 @@
 #include "6-abs.c"
 #include "time.h"
 /**
- * print_last_digit - main function
- *
- *
- * Return time MM:SS
+ * jack_bauer - main thing
  *
  */
 void jack_bauer(void)
