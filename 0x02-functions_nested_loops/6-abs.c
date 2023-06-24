@@ -13,5 +13,6 @@
 int _abs(int n)
 {
 	int A = abs(n);
-	return(A);
+
+	return (A);
 }
