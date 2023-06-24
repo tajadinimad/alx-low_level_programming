@@ -5,7 +5,7 @@
 #include "6-abs.c"
 #include "time.h"
 /**
- * jack_bauer - main thing
+ * times_table - times table function
  *
  */
 void times_table(void)
