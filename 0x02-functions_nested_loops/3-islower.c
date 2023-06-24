@@ -1,9 +1,11 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * int _islower - prints if a char is lowercase or not
+ * _islower - main function
  *
- * Return: 1 or 0;
+ * @c: character to compare
+ *
+ * Return: 1 if true, 0 if false
  *
  */
 int _islower(int c)
@@ -13,5 +15,4 @@ int _islower(int c)
 		return (1);
 	}
 	return (0);
-
 }
