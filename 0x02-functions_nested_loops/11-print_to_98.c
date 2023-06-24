@@ -2,7 +2,7 @@
 #include "6-abs.c"
 #include <stdio.h>
 /**
- * print_times_table - times table function
+ * print_to_98 - 98 Battery Street, the OG
  * @n: integer to return
  *
  */
