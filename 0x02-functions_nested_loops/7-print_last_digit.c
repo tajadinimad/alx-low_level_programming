@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <inttypes.h>
 #include <stdlib.h>
+#include "6-abs.c"
 /**
  * print_last_digit - main function
  *
@@ -12,7 +13,7 @@
  */
 int print_last_digit(int n)
 {
-	int L = n % 10;
+	int L = abs(n % 10);
 
 	return (L);
 }
