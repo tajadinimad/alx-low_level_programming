@@ -1,13 +1,13 @@
 #include "main.h"
-/* 
- * add function
- * @a,@b two integer as variables
- * return the addition of two variable 
+/**
+ * add - adding it up
+ * @a: first integer
+ * @b: second integer
  *
+ * Return: sum of both integers
  */
 int add(int a, int b)
 {
 	int r = a + b;
-
 	return (r);
 }
