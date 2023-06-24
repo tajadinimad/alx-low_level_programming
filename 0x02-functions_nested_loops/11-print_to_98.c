@@ -2,9 +2,9 @@
 #include "6-abs.c"
 #include <stdio.h>
 /**
- * print_to_98 - print natural 
+ * print_to_98
  * @n variable
- * Return: prints all natural numbers from n to 98;
+ * Return: prints all natural numbers from n to 98
  *
  */
 void print_to_98(int n)
