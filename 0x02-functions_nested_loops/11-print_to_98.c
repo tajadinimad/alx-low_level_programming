@@ -2,9 +2,8 @@
 #include "6-abs.c"
 #include <stdio.h>
 /**
- * print_to_98
- * @n variable
- * Return: prints all natural numbers from n to 98
+ * print_times_table - times table function
+ * @n: integer to return
  *
  */
 void print_to_98(int n)
