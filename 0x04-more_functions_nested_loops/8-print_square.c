@@ -2,7 +2,7 @@
 /**
  * print_square -  function that draws a
  * a square, followed by a new line.
- * @n : number of time to print _
+ * @size : number of time to print _
  * Return: void
  */
 void print_square(int size)
