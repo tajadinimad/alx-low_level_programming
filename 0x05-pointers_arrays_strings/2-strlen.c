@@ -1,11 +1,9 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strlen - This report, by its very length,
- * defends itself
- *  against the risk of being read
- *
+ * _strlen - returns length
  * @s: pointer integer
+ * Return: returns length
  */
 int _strlen(char *s)
 {
