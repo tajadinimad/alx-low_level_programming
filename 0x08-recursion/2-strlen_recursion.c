@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * int _strlen_recursion - write lenght of a string
- * @s: The character to print
- *
- * Return: lenght
+ * _strlen_recursion - write lenght of a string
+ * @s: The character to check its length
+ * Return: integer
  */
 int _strlen_recursion(char *s)
 {
