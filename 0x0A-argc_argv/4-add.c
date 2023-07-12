@@ -29,15 +29,16 @@ int StringCheck(char *s)
 int main(int argc, char  *argv[])
 {
 	int i;
-	int count = 0;
+	int result = 0;
+	
 
 	if (argc > 1)
 	{
-		for (i = 0; i < argc - 1; i++)
+		for (i = 1; i < argc; i++)
 		{
 			if (StringCheck(argv[i]))
 			{
-				count += atoi(argv[i]);
+				result += atoi(argv[i]);
 			}
 			else
 			{
@@ -45,7 +46,7 @@ int main(int argc, char  *argv[])
 				return (1);
 			}
 		}
-		printf("%d\n", count);
+		printf("%d\n", result);
 		return (0);
 	}
 	else

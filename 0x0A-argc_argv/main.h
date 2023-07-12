@@ -13,4 +13,12 @@ int _putchar(char c);
  * Return: returns a value
  */
 int _atoi(char *s);
+int StringCheck(char *s);
+/**
+ * _isdigit - checks if it is digit
+ * @c: character to check
+ *
+ * Return: returns boolean
+ */
+int _isdigit(int c);
 #endif /* MAIN_H */
