@@ -50,7 +50,7 @@ int main(int argc, char  *argv[])
 	}
 	else
 	{
-		printf("Error\n");
+		printf("0\n");
 		return (1);
 	}
 }
