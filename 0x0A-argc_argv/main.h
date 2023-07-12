@@ -7,5 +7,10 @@
 * Return: 0
 */
 int _putchar(char c);
-
+/**
+ * _atoi - convert char to int
+ * @s: string
+ * Return: returns a value
+ */
+int _atoi(char *s);
 #endif /* MAIN_H */
